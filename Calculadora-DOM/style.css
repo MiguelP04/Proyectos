@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.container-title{
+    background-color: rgb(236, 234, 234);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 0px 12px;
+    margin: 2em 0px 0px 0px;
+}
+
+h1{
+    color: rgb(29, 177, 142);
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.section-calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.container-calculator{
+    margin: 4em 0px;
+    background-color: rgb(60, 59, 59);
+    width: min-content;
+
+}
+
+.container-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-calculator{
+    background-color: rgb(26, 91, 39);
+    width: 250px;
+    height: 50px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen-elements{
+    padding-right: 5px;
+    margin-top: 15px;
+    font-size: 25px;
+    
+}
+
+.container-elements{
+    display: flex;
+    
+}
+
+.container-keys{
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: 10px;   
+}
+
+.container-keys > *{
+    border-radius: 6px;
+}
+.key-number{
+    margin: 15px 15px;
+    background-color:rgb(120, 124, 121);
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+
+.key-invisible{
+    margin: 15px 15px;
+    width: 40px;
+    height: 30px;
+}
+.key-operator{
+    margin: 15px 15px;
+    width: 40px;
+    height: 30px;
+    background-color:rgb(202, 131, 25);
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}

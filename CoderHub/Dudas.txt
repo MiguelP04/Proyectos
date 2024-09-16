@@ -1,0 +1,20 @@
+========================================================GIT BASH===================================================
+
+Para que sirve -a en un git commit
+
+Que hace el comando: ssh-keygen -t ed25519 -C "tu email"
+
+Cuando se crea una rama llamada development no deja hacer un push
+
+========================================================DUDAS GENERALES===================================================
+
+como este comando funciona? 
+var num = prompt("Coloca un número")
+
+if(num % 2 === 0){
+    alert("El número " + num + " es un número par")
+} else{
+    alert("El número " + num + " es un número impar")
+}
+
+la variable num es un string

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soy Miguel">
+    <title>Miguel Petit</title>
+    <style>
+        .lista_ultimas_experiencias{
+            list-style: none;
+        }
+
+        h1{
+            color: blue;
+        }
+
+        h3{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul type="">
+                <li>
+                    Inicio
+                </li>
+                <li>
+                    Buscar un médico
+                </li>
+                <li>
+                    Iniciar sesión
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>¿Quién soy?</h1>
+            <img src="imagenes/programacion.jpg" alt="" width="300">  
+            <p>Me llamo Miguel petit. Desarrollador Web</p>
+        </section>
+        
+        <section>
+            <h3>Mis últimas experiencias</h3>
+            <ul class="lista_ultimas_experiencias">
+                <li>
+                    Trabajar
+                </li>
+                <li>
+                    Esfuerzo
+                </li>
+                <li>
+                    Estudiar
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Mis últimos estudios</h3>
+            <ol>
+                <li>
+                    Unefa
+                </li>
+                <li>
+                    Matemáticas
+                </li>
+                <li>
+                    Fe y Alegría
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h3>Hobbies</h3>
+            <ul>
+                <li>
+                    Cod
+                </li>
+                <li>
+                    Twitch
+                </li>
+                <li>
+                    Youtube 
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/migueldavid.petitdavila.1" target="_blank">Facebook</a>
+                </li>
+            </ul>
+        </section>
+        <br>
+        <br>
+
+        <section>
+            <h3>Contáctame</h3>
+            <form>
+                <fieldset>
+                    <legend>Información Personal</legend>
+                <label>
+                    Nombre
+                </label>
+                <input type="text" name="nombre" placeholder="Escribe aquí tu nombre" required="true">
+                <br>
+                <br>
+                <label>
+                    Apellido
+                </label>
+                <input type="text" name="apellido" placeholder="Escribe aquí tu apellido">
+
+                <br>
+                <br>
+                <input type="checkbox" name="acuerdo_de_registro">
+                <label for="">
+                    ¿Estás de acuerdo con registrarte?
+                </label>
+
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Datos Adicionales</legend>
+                    <label>¿Cual es tu sexo?</label>
+                    <select name="sexo" id="">
+                        <option value="Masculino">
+                            Masculino
+                        </option>
+
+                        <option value="Femenino">
+                            Femenino
+                        </option>
+
+                        <option value="Otro">
+                            Otro
+                        </option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <label for="">
+                        Escribe tu correo
+                    </label>
+                    <input type="email" name="correo_personal" id=""placeholder="Escribe aquí tu correo">
+                    <br>
+                    <br>
+                    <label for="">
+                        Fecha de nacimiento
+                    </label>
+                    <input type="date" name="fecha_nacimiento">
+                </fieldset>
+                <br>
+
+                <button>Click para enviar</button>
+            </form>
+        </section>
+    </main>
+    <br>
+    <br>
+
+    <footer>
+        <h3>Desarrollado por Miguel Petit</h3>
+        <h5>@corporacionesmiguelinc</h5>
+    </footer>
+
+    
+</body>
+</html>
